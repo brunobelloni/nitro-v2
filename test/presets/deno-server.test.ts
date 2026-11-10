@@ -1,12 +1,12 @@
 import { readFileSync } from "node:fs";
-import { execa, execaCommandSync } from "execa";
+import { execa, execaSync } from "execa";
 import { resolve } from "pathe";
 import { getRandomPort, waitForPort } from "get-port-please";
 import { describe, expect, it } from "vitest";
 import { setupTest, testNitro } from "../tests";
 
 const hasDeno =
-  execaCommandSync("deno --version", { stdio: "ignore", reject: false })
+  execaSync("deno", ["--version"], { stdio: "ignore", reject: false })
     .exitCode === 0;
 
 describe.runIf(hasDeno)("nitro:preset:deno-server", async () => {
