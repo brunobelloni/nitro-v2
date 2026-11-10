@@ -7,7 +7,7 @@
 
 <!-- /automd -->
 
-Create web servers that run anywhere! 📖 [**documentation**](https://nitro.build)
+Create web servers that run anywhere! 📖 [**documentation**](https://v2.nitro.build)
 
 Nitro lets you build fast server apps and APIs with file-based routing, built-in storage and caching, and zero-config deployment to Node.js, serverless and edge platforms.
 
