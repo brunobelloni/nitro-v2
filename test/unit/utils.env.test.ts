@@ -20,6 +20,22 @@ describe("env utils", () => {
         expected: { feature: { options: false } },
       },
     ];
+    it("reads the current env value on every call", () => {
+      const opts = { prefix: "NITRO_" };
+      process.env.NITRO_API_BASE_URL = "first";
+      expect(applyEnv({ apiBaseUrl: "default" }, opts)).toEqual({
+        apiBaseUrl: "first",
+      });
+      process.env.NITRO_API_BASE_URL = "second";
+      expect(applyEnv({ apiBaseUrl: "default" }, opts)).toEqual({
+        apiBaseUrl: "second",
+      });
+      delete process.env.NITRO_API_BASE_URL;
+      expect(applyEnv({ apiBaseUrl: "default" }, opts)).toEqual({
+        apiBaseUrl: "default",
+      });
+    });
+
     for (const test of tests) {
       it(`Config: ${JSON.stringify(test.config)} Env: { ${Object.entries(
         test.env
