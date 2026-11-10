@@ -153,7 +153,7 @@
     "semver": "^7.8.6",
     "serve-placeholder": "^2.0.2",
     "serve-static": "^2.2.1",
-    "source-map": "^0.7.6",
+    "source-map": "^0.8.0",
     "std-env": "^4.3.0",
     "ufo": "^1.6.4",
     "ultrahtml": "^1.7.0",
