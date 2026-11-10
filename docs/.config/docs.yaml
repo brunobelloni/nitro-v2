@@ -12,8 +12,20 @@ themeColor: "red"
 versions:
   - label: "v2 (legacy)"
     active: true
-  - label: "v3 (beta)"
+  - label: "v3"
     to: "https://nitro.build"
+banner:
+  id: legacy-v2
+  icon: i-lucide-info
+  color: warning
+  title: "You are viewing the legacy Nitro v2 docs. Nitro v3 is the latest version."
+  actions:
+    - label: "Go to latest docs"
+      icon: i-lucide-arrow-right
+      to: "https://nitro.build"
+      color: warning
+      variant: outline
+      size: xs
 automd: true
 redirects:
   /deploy/node: /deploy/runtimes/node
