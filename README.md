@@ -10,7 +10,7 @@
 Create web servers that run anywhere! 📖 [**documentation**](https://nitro.build)
 
 > [!NOTE]
-> You are on the **v2 support branch.** Checkout the [v3](https://github.com/nitrojs/nitro/tree/v3) branch for the current development.
+> This repository is for **Nitro v2** (`nitropack`) maintenance. Checkout [nitrojs/nitro](https://github.com/nitrojs/nitro) for the current development.
 
 ## Contribution
 
@@ -31,11 +31,11 @@ Create web servers that run anywhere! 📖 [**documentation**](https://nitro.bui
 
 <!-- automd:contributors license=MIT author="pi0" -->
 
-Published under the [MIT](https://github.com/nitrojs/nitro/blob/main/LICENSE) license.
-Made by [@pi0](https://github.com/pi0) and [community](https://github.com/nitrojs/nitro/graphs/contributors) 💛
+Published under the [MIT](https://github.com/nitrojs/nitro-v2/blob/main/LICENSE) license.
+Made by [@pi0](https://github.com/pi0) and [community](https://github.com/nitrojs/nitro-v2/graphs/contributors) 💛
 <br><br>
-<a href="https://github.com/nitrojs/nitro/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=nitrojs/nitro" />
+<a href="https://github.com/nitrojs/nitro-v2/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=nitrojs/nitro-v2" />
 </a>
 
 <!-- /automd -->

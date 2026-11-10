@@ -1,8 +1,8 @@
 name: ci
 
 on:
-  push: { branches: [v2] }
-  pull_request: { branches: [v2] }
+  push: { branches: [main] }
+  pull_request: { branches: [main] }
 
 jobs:
   tests:
@@ -48,7 +48,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions: { id-token: write, contents: read }
     needs: tests
-    if: github.ref == 'refs/heads/v2' && github.event_name == 'push' && github.repository == 'nitrojs/nitro'
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push' && github.repository == 'nitrojs/nitro-v2'
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with: { fetch-depth: 0 }
