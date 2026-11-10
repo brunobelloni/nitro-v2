@@ -336,7 +336,7 @@ you will be able to access the `MY_VARIABLE` and `MY_KV` from the request event 
 
 ## Tree-shaking and third-party libraries
 
-At build time, Nitro will search-and-replace certain strings in the source code of the application and libraries.  The full list is available in [Nitro's Rollup config](https://github.com/nitrojs/nitro/blob/v2/src/rollup/config.ts).  Making the replacements allows Rollup to tree-shake dependencies and prune code branches that may be client-only or server-only.  However, in certain cases the replacements may cause syntax errors during the build step.
+At build time, Nitro will search-and-replace certain strings in the source code of the application and libraries.  The full list is available in [Nitro's Rollup config](https://github.com/nitrojs/nitro-v2/blob/main/src/rollup/config.ts).  Making the replacements allows Rollup to tree-shake dependencies and prune code branches that may be client-only or server-only.  However, in certain cases the replacements may cause syntax errors during the build step.
 
 One example (described in more detail [here](https://github.com/nitrojs/nitro/issues/3071)):
 
