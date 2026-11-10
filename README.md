@@ -1,4 +1,4 @@
-# Nitro
+# Nitro v2
 
 <!-- automd:badges -->
 
@@ -9,10 +9,16 @@
 
 Create web servers that run anywhere! 📖 [**documentation**](https://nitro.build)
 
+Nitro lets you build fast server apps and APIs with file-based routing, built-in storage and caching, and zero-config deployment to Node.js, serverless and edge platforms.
+
 > [!NOTE]
-> This repository is for **Nitro v2** (`nitropack`) maintenance. Checkout [nitrojs/nitro](https://github.com/nitrojs/nitro) for the current development.
+> This repository is for long-term maintenance of **Nitro v2** (`nitropack`). New development happens in [nitrojs/nitro](https://github.com/nitrojs/nitro).
 
 ## Contribution
+
+- ✅ **Bug fixes** and **deployment preset updates** are welcome. Backports must already be merged into upstream [`main`](https://github.com/nitrojs/nitro) and released.
+- 💬 **New features**: only considered if they make sense for long-term support and benefit enough users.
+- ⚠️ **Dependencies**: major versions of core dependencies are locked and cannot be upgraded.
 
 <details>
   <summary>Local development</summary>
@@ -21,29 +27,10 @@ Create web servers that run anywhere! 📖 [**documentation**](https://nitro.bui
 - Install the latest LTS version of [Node.js](https://nodejs.org/en/)
 - Enable [Corepack](https://github.com/nodejs/corepack) using `corepack enable`
 - Install dependencies using `pnpm install`
-- Run tests using `pnpm dev` or `pnpm test`
+- Run tests using `pnpm test`
 
 </details>
 
-<!-- /automd -->
-
 ## License
 
-<!-- automd:contributors license=MIT author="pi0" -->
-
-Published under the [MIT](https://github.com/nitrojs/nitro-v2/blob/main/LICENSE) license.
-Made by [@pi0](https://github.com/pi0) and [community](https://github.com/nitrojs/nitro-v2/graphs/contributors) 💛
-<br><br>
-<a href="https://github.com/nitrojs/nitro-v2/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=nitrojs/nitro-v2" />
-</a>
-
-<!-- /automd -->
-
-<!-- automd:with-automd -->
-
----
-
-_🤖 auto updated with [automd](https://automd.unjs.io)_
-
-<!-- /automd -->
+Published under the [MIT](./LICENSE) license.
